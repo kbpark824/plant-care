@@ -1,0 +1,10 @@
+html {
+    font-family: sans-serif;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center; /* Centers children horizontally */
+    max-width: 900px;
+    margin: auto;
+}
