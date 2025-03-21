@@ -1,6 +1,12 @@
 html {
     font-family: sans-serif;
 }
+body {
+    background-image: url(../images/ivy.png), url(../images/ivy2.png), url(../images/green-grad.png);
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-attachment: fixed, fixed, fixed;
+    background-position: top right, top left, top left;
+}
 .wrapper {
     display: flex;
     flex-direction: column; /* Stacks elements vertically */
