@@ -16,9 +16,10 @@ body {
 }
 .nav {
     height: 100px;
-    max-width: 200px;
+    max-width: 500px;
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: auto;
+    justify-content: space-around;
 }
